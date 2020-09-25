@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="CSS/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div id="top"><div id="first"><img id="home" src="Image/Badge.png"></img></div> <center> <div id="unavailable_cart_message"></div></center></div>  
+    
+    <button id="shopping_cart" value=" SHOPPING CART"><i class="fa fa-shopping-cart" aria-hidden="true"> SHOPPING CART</i><input type="button" id="shopping_cart_pcs" ></button>
+    <!-- <input type="button" id="shopping_cart_pcs" > -->
+    <!-- <input type="button" id="shopping_cart" value="&#128274 SHOPPING CART"> -->
+
+    <table id="cart_table" >
+        <table id="cart_contaier"><tbody id="cart_items"></tbody></table>
+     </table>
+<div id= "cart_details">
+    <div id="products_qty"></div>
+    <div id="VAT"></div>
+    <div id="transport_cost"></div>
+    <div id="Total"></div>
+    <div id="CheckOut"></div>
+</div>
+    <script src="JS/scriptAdminModels.js"></script>  
+    <script src="JS/ScriptCartViews.js"></script>
+    <!-- <script src="ScriptDetailsViews.js"></script>    -->
+</body>
+</html>

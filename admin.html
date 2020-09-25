@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin-Online Shop</title>
+    <link rel="stylesheet" href="CSS/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+   <style>
+    .redBorder{
+        background-color: rgb(230, 166, 166);
+    }
+</style>
+</head>
+<body>
+    <img id="home" src="Image/Badge.png"></img>  
+    <section id="products_wrapper">
+    <h1>Products Management</h1> <a id="add_new">+ Add New product</a>
+   
+    <table id="products_table" >
+        <table id="produse"><tbody id="products"></tbody></table>
+     </table>
+    </section>
+<section id="update_product">
+    <div id="update_name" value="Update product: " ><h1>Update product: </h1><div id="name"><p></p></div>
+    <input type="button" id="save_update" value="+ SAVE">
+    <input type="button" id="cancel_update" value="CANCEL"><br><br>
+    <div id="message"></div>
+</div>
+    <label for="image-f">Image </label>
+    <input type="text" id="image-field" name="image-field" /><br>
+    <label for="name-f">Name </label>
+    <input type="text" id="name-field" name="name-field" /><br>
+    <label for="description-f">Description </label>
+    <input type="text" id="description-field" name="description-field" /><br>
+    <label for="price-f">Price </label>
+    <input type="number" id="price-field" name="price-field" min="1"/><br>
+    <label for="quantity-f">Quantity </label>
+    <input type="number" id="quantity-field" name="quantity-field" min="1"/><br>
+    
+</section>
+
+<section id="add_product">
+    <div id="add_name" value="Add product: " ><h1>Add a new product <div id="name"></h1></div>
+    <input type="button" id="save_add" value="&#43 SAVE">
+    <input type="button" id="cancel_add" value="CANCEL"><br><br>
+    <div id="message_add"></div>
+</div>
+    <label for="image-f_add">Image </label>
+    <input type="text" id="image-field_add" name="image-field" /><br>
+    <label for="name-f_add">Name </label>
+    <input type="text" id="name-field_add" name="name-field" /><br>
+    <label for="description-f_add">Description </label>
+    <input type="text" id="description-field_add" name="description-field" /><br>
+    <label for="price-f_add">Price </label>
+    <input type="number" id="price-field_add" name="price-field" min="1" /><br>
+    <label for="quantity-f_add">Quantity </label>
+    <input type="number" id="quantity-field_add" name="quantity-field" min="1" /><br>
+    
+</section>
+<script src="JS/scriptAdminModels.js"></script>
+<script src="JS/ScriptAdminViews.js"></script>
+
+</body>
+</html>

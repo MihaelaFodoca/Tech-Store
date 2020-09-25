@@ -1,0 +1,197 @@
+#home:hover{
+    cursor: pointer;
+    cursor: hand;
+    }
+.cart_img {
+        width: 30px;
+        height: 30px;
+        align-items: center;
+    }
+
+#shopping_cart{
+    position: relative;
+      margin-left: 5%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(10, 40, 173);;
+        border-color:rgb(10, 40, 173);;
+        color: white;
+        font-weight: bold;
+        border-radius: 3px;
+        font-family: 'Lato', sans-serif;
+        }
+        #shopping_cart:hover{
+        background-color: white;
+        color:rgb(10, 40, 173);;
+        cursor: pointer;
+        cursor: hand;
+        }
+#shopping_cart_pcs{
+    position: absolute;
+     top: -5px;
+  /* right: 0;
+  width: 200px;
+  height: 100px; */ 
+  /* border: 3px solid #73AD21; */
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  border: red 1px;
+  font-size: 0.8em;
+
+}
+#shopping_cart_pcs:hover{
+    background-color: white;
+        color:red;
+        cursor: pointer;
+        cursor: hand;
+        border-color: red 1px solid;
+}
+.delete{    
+ color: rgb(0, 167, 233);
+
+        
+}
+.delete:hover{
+            color: rgb(85, 212, 235);
+            cursor: pointer;
+            cursor: hand;
+}
+.details{
+ color: rgb(0, 167, 233);
+}
+.details:hover{
+    color: rgb(85, 212, 235);
+    cursor: pointer;
+    cursor: hand;
+}
+#cart_table{
+    margin-top: 15px;
+    font-family: 'Muli', sans-serif;
+    width: 100%;
+    margin-left: 5%;
+}
+@media screen and (min-width: 850px) {
+    #cart_table{
+        margin-top: 15px;
+        font-family: 'Muli', sans-serif;
+        width: 65%;
+        margin-left: 200px;
+    }
+}
+#products_wrapper h1{
+    font-family: 'Muli', sans-serif;
+    margin-left: 200px;
+}
+
+#unavailable_cart_message{
+    visibility:hidden;
+    background-color: rgb(201, 201, 201);
+    color: black;
+   opacity: 0.5;
+   padding: 5px;
+   text-align: center;
+    margin-left: 130px;
+   align-self: center;
+   margin-top: 18px ;
+   padding-left: 200px;
+   padding-right: 200px;
+}   
+.minus{
+    text-decoration: none;
+    color: rgb(0, 167, 233);
+}
+.plus{
+    text-decoration: none;
+    color: rgb(0, 167, 233);
+    
+}
+#empty_msg{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.check_out{
+    background-color: rgb(10, 40, 173);;
+    border-color:rgb(10, 40, 173);;
+    color: white;  
+    width: 100px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+}
+.check_out:hover{
+    background-color: white;;
+    border-color:rgb(10, 40, 173);;
+    color: rgb(10, 40, 173);  
+    width: 30%;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+}
+#cart_table tr:nth-child(even) { 
+    background-color:rgb(241, 241, 241);
+    border-collapse: collapse;
+  }
+#cart_table p{
+    font-weight: bold;
+}
+#cart_details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    font-family: 'Lato', sans-serif;
+padding-top: 2%;
+}
+@media screen and (min-width: 850px) {
+    #cart_details{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70%;
+        font-family: 'Lato', sans-serif;
+    padding-top: 2%;
+    }
+    .check_out{
+        background-color: rgb(10, 40, 173);;
+        border-color:rgb(10, 40, 173);;
+        color: white;  
+        width: 35%;
+        font-family: 'Lato', sans-serif;
+        font-size: 0.9em;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    #shopping_cart{
+        position: relative;
+          margin-left: 68%;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: rgb(10, 40, 173);;
+            border-color:rgb(10, 40, 173);;
+            color: white;
+            font-weight: bold;
+            border-radius: 3px;
+            font-family: 'Lato', sans-serif;
+            }
+            #shopping_cart:hover{
+            background-color: white;
+            color:rgb(10, 40, 173);;
+            cursor: pointer;
+            cursor: hand;
+            }
+}
+#cart_totals{
+    padding-top: 60px;
+    padding-left: 3%;
+    font-family: 'Lato', sans-serif;
+
+}

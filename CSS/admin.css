@@ -1,0 +1,330 @@
+.admin_img{
+    width: 30px;
+    height: 30px;
+}
+#products_table{
+    margin-top: 15px;
+    font-family: 'Muli', sans-serif;
+    width: 90%;
+    margin-left: 5%;
+}
+#add_new{
+    width: 90px;
+    background-color:rgb(10, 40, 173);
+    margin-left: 5%;
+    color: white;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+    font-family: 'Muli', sans-serif;
+font-weight: bold;
+border-radius: 3px;
+border: rgb(85, 212, 235);
+}
+#add_new:hover{
+    background-color: white;
+    color: rgb(10, 40, 173);
+    border: rgb(10, 40, 173) 2px solid;
+    cursor: pointer;
+    cursor: hand;
+}
+@media screen and (min-width: 750px) {
+    #products_table{
+        margin-top: 15px;
+        font-family: 'Muli', sans-serif;
+        width: 60%;
+        margin-left: 200px;
+    }
+    #add_new{
+        width: 90px;
+        background-color:rgb(10, 40, 173);
+        margin-left: 60%;
+        color: white;
+        padding-left:20px;
+        padding-right: 20px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        margin-bottom: 10px;
+        font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    border: rgb(85, 212, 235);
+    }
+}
+#products_wrapper h1{
+    font-family: 'Muli', sans-serif;
+    margin-left: 200px;
+}
+.delete_box a{
+    color: blue;
+}
+#update_product{
+    width: 800px;
+    border: 1px rgb(194, 193, 193) solid;
+    font-family: 'Muli', sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    display: none;
+    margin-left: 250px;
+    margin-top: 60px;
+    border-radius: 5px;
+} 
+#add_product{
+    width: 60%;
+    border: 1px rgb(194, 193, 193) solid;
+    font-family: 'Muli', sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    display: none;
+    margin-left: 20%;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#image-field{
+    padding: 7px;
+    width: 500px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+}
+#image-field:hover{
+    background-color: rgb(230, 230, 253);
+}
+#name-field{
+    padding: 7px;
+    width: 500px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+
+}
+#name-field:hover{
+    background-color: rgb(230, 230, 253);
+    cursor: hand;
+}
+#description-field{
+    padding: 7px;
+    width: 500px;
+    margin-left: 82px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+}
+#description-field:hover{
+    background-color: rgb(230, 230, 253);
+}
+#price-field{
+    padding: 7px;
+    width: 500px;
+    margin-left: 127px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+}
+#price-field:hover{
+    background-color: rgb(230, 230, 253);
+}
+#quantity-field{
+    padding: 7px;
+    width: 500px;
+    margin-left: 102px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220) ;
+
+}
+#quantity-field:hover{
+    background-color: rgb(230, 230, 253);
+}
+
+#save_update{
+    margin-left: 505px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+padding-left: 15px;
+padding-right: 15px;
+background-color: rgb(10, 40, 173);;
+border-color: rgb(10, 40, 173);;
+color: white;
+font-weight: bold;
+border-radius: 3px;
+
+}
+#save_update:hover{
+        background-color: white;
+        color:rgb(10, 40, 173) ;
+        cursor: pointer;
+        cursor: hand;
+}
+#cancel_update{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+padding-right: 15px;
+background-color:white;
+border-color: rgb(241, 241, 241);
+font-weight: bold;
+border-radius: 3px;
+
+}
+#cancel_update:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+        cursor: hand;
+}
+#save_add{
+    margin-left: 505px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+padding-left: 15px;
+padding-right: 15px;
+background-color: rgb(10, 40, 173);;
+border-color: rgb(10, 40, 173);;
+color: white;
+font-weight: bold;
+border-radius: 3px;
+
+}
+#save_add:hover{
+        background-color: white;
+        color:rgb(10, 40, 173) ;
+        cursor: pointer;
+        cursor: hand;
+}
+#cancel_add{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+padding-right: 15px;
+background-color:white;
+border-color: rgb(241, 241, 241);
+font-weight: bold;
+border-radius: 3px;
+}
+#cancel_add:hover{
+background-color: black;
+color: white;
+cursor: pointer;
+        cursor: hand;
+}
+
+#image-field_add{
+    padding: 7px;
+    width: 500px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+}
+#image-field_add:hover{
+    background-color: rgb(230, 230, 253);
+}
+#name-field_add{
+    padding: 7px;
+    width: 500px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+
+}
+#name-field_add:hover{
+    background-color: rgb(230, 230, 253);
+}
+#description-field_add{
+    padding: 7px;
+    width: 500px;
+    margin-left: 83px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+}
+#description-field_add:hover{
+    background-color: rgb(230, 230, 253);
+}
+#price-field_add{
+    padding: 7px;
+    width: 500px;
+    margin-left: 127px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+}
+#price-field_add:hover{
+    background-color: rgb(230, 230, 253);
+}
+#quantity-field_add{
+    padding: 7px;
+    width: 500px;
+    margin-left: 103px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 220);
+
+}
+#quantity-field_add:hover{
+    background-color: rgb(230, 230, 253);
+}
+/* td:hover{
+    color: rgb(85, 212, 235);
+} */
+
+  #products_table tr:nth-child(even) { 
+    background-color:rgb(241, 241, 241);
+    border-collapse: collapse;
+  }
+  #update_name p{
+color: rgb(186, 186, 245);
+  }
+  .update:hover{
+    color: rgb(85, 212, 235);
+      cursor: pointer;
+      cursor: hand;
+  }
+  .delete:hover{
+    color: rgb(85, 212, 235);
+    cursor: pointer;
+    cursor: hand;
+  }
+  #home:hover{
+    cursor: pointer;
+    cursor: hand;
+    }
+#products_table p{
+    font-weight: bold;
+   
+}
+#message{
+    width: 50%;
+    background-color: rgb(228, 175, 175);
+    margin-left: 21%;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    display: none;
+}
+#message_add{
+    width: 50%;
+    background-color: rgb(228, 175, 175);
+    margin-left: 21%;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-radius: 4px;
+    display: none;
+}
